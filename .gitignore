@@ -1,0 +1,28 @@
+# Python cache files #
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+
+# FastAPI #
+.env        # Environment variables
+*.sqlite3   # SQLite database files, if applicable
+
+# Pytest #
+.pytest_cache/
+
+# Pydantic compiled models #
+*.json
+
+# Gunicorn logs #
+gunicorn.log
+
+# Virtual environment #
+venv/
+.env/
+.vscode/
+
+# Vercel #
+.vercel/
